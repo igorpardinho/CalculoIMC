@@ -6,9 +6,11 @@ public class Pessoa {
         private float altura;
 
 
-        public Pessoa(){
-            System.out.println("Construtor iniciado");
+        public  Pessoa(){
+            System.out.println("IMC - Abaixo do peso = Menor que 18,5 - Normal = Entre 18,5 e 24,9 - " +
+                    "Sobrepeso = Entre 25,0 a 29,9 - Obesidade = 30,0 a 39,9 - Obesidade Grave = Maior que 40,0");
         }
+
 
         public float calcularImc(){
             float imc = peso / (altura*altura);
